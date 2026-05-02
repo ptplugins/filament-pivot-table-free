@@ -77,9 +77,25 @@ If you'd rather pass a query, the component runs `->get()` for you:
 - Up to **2 row × 2 column** dimensions
 - **Sum** aggregation
 - Grand Total
-- Light theme, inline-styled (works without a Tailwind build)
+- **Light + dark theme** out of the box (Tailwind `dark:` variants)
+- **Translations** — English bundled, publish & override for any locale
 - Eloquent query OR Collection / array of records
 - Filament v3 + v4 + v5 compatible (single codebase)
+
+### Requirements
+
+- Laravel 10+ / 11+ / 12+
+- PHP 8.2+
+- **Tailwind CSS in your build** — every Filament project already has it. The component uses standard utility classes (`bg-white`, `dark:bg-gray-900`, `text-gray-900`, etc.) that ship with the default Tailwind preset.
+
+### Translations
+
+```bash
+# Publish English (and any other locales you add later)
+php artisan vendor:publish --tag=pivot-free-translations
+```
+
+Edit / add at `lang/vendor/pivot-free/{locale}/messages.php`.
 
 ## What's NOT included — that's where Pro comes in
 

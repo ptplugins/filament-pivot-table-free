@@ -37,7 +37,7 @@ class PivotTable extends Component
         ?array $columnFields = null,
         public string $valueField = 'value',
         public ?string $title = null,
-        public ?string $emptyText = 'No data to display.',
+        public ?string $emptyText = null,
     ) {
         if (($records === null) === ($query === null)) {
             throw new \InvalidArgumentException(

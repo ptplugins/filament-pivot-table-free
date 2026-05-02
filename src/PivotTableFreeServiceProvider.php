@@ -10,6 +10,11 @@ class PivotTableFreeServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'pivot-free');
+        $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'pivot-free');
+
+        $this->publishes([
+            __DIR__.'/../resources/lang' => $this->app->langPath('vendor/pivot-free'),
+        ], 'pivot-free-translations');
 
         Blade::componentNamespace(
             'PtPlugins\\FilamentPivotTableFree\\View\\Components',
