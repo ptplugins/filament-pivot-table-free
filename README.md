@@ -1,7 +1,7 @@
 # Filament Pivot Table — Free
 
 <p align="center">
-  <img src="./screenshot.png" alt="Filament Pivot Table Free — sales pivot example" width="100%">
+  <img src="./screenshot.png" alt="Filament Pivot Table Free — sales pivot example" width="100%" class="filament-hidden">
 </p>
 
 > Free Blade component that renders Eloquent records as a pivot table with Sum aggregation. Works with **Filament 3, 4, and 5**.
