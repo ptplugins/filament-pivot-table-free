@@ -4,6 +4,11 @@ All notable changes to `ptplugins/filament-pivot-table-free` are documented here
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.1.3] - 2026-05-12
+
+### Changed
+- README: added a Demo section pointing to the public live demo at [ptplugins.com/demo/pivot-pro](https://ptplugins.com/demo/pivot-pro). The demo runs the Pro version so visitors can see the full feature surface before deciding between Free and Pro.
+
 ## [1.1.2] - 2026-05-07
 
 ### Changed

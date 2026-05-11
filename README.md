@@ -6,6 +6,8 @@
 
 > Free Blade component that renders Eloquent records as a pivot table with Sum aggregation. Works with **Filament 3, 4, and 5**.
 
+**Live demo:** [ptplugins.com/demo/pivot-pro](https://ptplugins.com/demo/pivot-pro) — no signup required. The demo shows the **Pro** version with all features; the Free component renders the same table style limited to 2×2 dimensions and Sum aggregation.
+
 ```blade
 <x-pivot-free::pivot-table
     :records="$sales"
